@@ -21,3 +21,8 @@ variable server_port {
   type        = string
   default     = 80
 }
+
+variable environment {
+  type        = string
+  default     = "Dev"
+}
